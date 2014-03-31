@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package picam;
 
 import java.io.File;
@@ -32,7 +27,7 @@ import twitter4j.conf.ConfigurationBuilder;
 public class TweetCam {
 
     public static String PICTUREFILENAME = "picamera";
-    public static String JAVA_CAM_TWITTER_NAME = "JavaPiCam";
+    public static String JAVA_CAM_TWITTER_NAME = "JavaPiCam"; // Twitter account, use your own
     public static String fileName;
     static Runtime rt = Runtime.getRuntime();
     static int increment;
@@ -44,16 +39,16 @@ public class TweetCam {
     public static void main(String[] args) {
 
         //Your Twitter App's Consumer Key
-        final String consumerKey = "Here goes my key";
+        final String consumerKey = "Here goes my key"; // Enter your consumer key
 
         //Your Twitter App's Consumer Secret
-        final String consumerSecret = "myconsumerSecret";
+        final String consumerSecret = "myconsumerSecret"; // Enter your consumer secret
 
         //Your Twitter Access Token
-        final String accessToken = "myToken";
+        final String accessToken = "myToken"; // Enter your access token
 
         //Your Twitter Access Token Secret
-        final String accessTokenSecret = "myTokenSecret";
+        final String accessTokenSecret = "myTokenSecret"; // Enter your token secret
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         ConfigurationBuilder cb2 = new ConfigurationBuilder();
